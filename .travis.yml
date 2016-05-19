@@ -3,7 +3,15 @@ python:
   - '3.5'
 
 install:
-  - "pip install -r requirements.txt"
+  - pip install -r requirements.txt
 
 script:
-  - "make html"
+  - make html
+
+after_success:
+  - openssl aes-256-cbc -K $encrypted_7b012790a735_key -iv $encrypted_7b012790a735_iv -in id_travis.enc -out $HOME/.ssh/id_travis -d
+  - chmod 600 ~/.ssh/id_travis
+  - eval "$(ssh-agent -s)"
+  - ssh-add ~/.ssh/id_travis
+  - git remote set-url origin "git@github.com:$TRAVIS_REPO_SLUG.git"
+  - make github
