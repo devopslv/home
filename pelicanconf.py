@@ -5,12 +5,10 @@ from __future__ import unicode_literals
 AUTHOR = 'devops'
 SITENAME = 'devopslv'
 SITEURL = ''
-
 PATH = 'content'
-
 TIMEZONE = 'Europe/Riga'
-
 DEFAULT_LANG = 'en'
+THEME = 'themes/blue-penguin'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
