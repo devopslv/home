@@ -49,7 +49,7 @@ set up is already there and newcomer can dive into software itself rather than t
 `Tims presentation`_
 
 
-`Check other conference presentations.`_
+`Check other conference presentations`_
 
 
 // Note on Software and Infra dev as merging trend
