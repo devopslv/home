@@ -1,3 +1,11 @@
+:date: 2016-06-15
+:slug: devopspro-review
+:author: Marcis Veveris
+:category: review
+:tags: devopspro, automation, infrastructure, review
+:summary: short review of 2016 devops pro conference
+
+
 ****************************
 DevOps Pro conference review
 ****************************
@@ -52,7 +60,6 @@ set up is already there and newcomer can dive into software itself rather than t
 `Check other conference presentations`_
 
 
-// Note on Software and Infra dev as merging trend
 Lately we can see that operations are adopting best practices from development - we're talking about
 configuration code smell, unit and functional tests for infrastructure, keeping configuration
 in source control, etc. We can even apply tools used by testers to make test scenarios - Cucumber for example.
